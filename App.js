@@ -45,7 +45,6 @@ export default function App() {
                   <View style={{ flexDirection: "row", justifyContent: "space-between", marginTop: 12 }}>
                     <Text style={styles.flatListDate}>{item.preco}</Text>
                     <Text style={styles.flatListDate}>{item.data}</Text>
-                    {/* <Text style={styles.flatListDate}>{item.Local}</Text> */}
                   </View>
                 </View>
               );
